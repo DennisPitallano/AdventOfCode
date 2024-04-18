@@ -22,7 +22,7 @@ return;
 
 
 
-
+// Read all lines from the file
 static string GetInput()
 {
     const string filePath = "input.txt";

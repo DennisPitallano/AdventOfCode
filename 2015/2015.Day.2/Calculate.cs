@@ -18,6 +18,7 @@
                 var w = int.Parse(dimensions[1]);
                 var h = int.Parse(dimensions[2]);
 
+                // Calculate the surface area of the present
                 var surfaceArea = 2 * (l * w + w * h + h * l) + Math.Min(Math.Min(l * w, w * h), h * l);
 
                 total += surfaceArea;

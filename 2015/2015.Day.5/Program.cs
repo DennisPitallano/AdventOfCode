@@ -5,10 +5,12 @@ using _2015.Day._5;
 Console.WriteLine("Hello, World!");
 
 Console.WriteLine(Calculate.CountNice(GetInput()));
+
 Console.WriteLine(Calculate.CountNice2(GetInput()));
 
 return;
 
+// Read all lines from the file
 static string GetInput()
 {
     const string filePath = "input.txt";

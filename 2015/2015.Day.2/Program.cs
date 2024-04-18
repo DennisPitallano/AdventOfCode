@@ -2,23 +2,19 @@
 
 string filePath = "input.txt";
 
-try
-{
-    // Read all lines from the file
-    var presents = GetInput(filePath);
+// Read all lines from the file
+var presents = GetInput(filePath);
 
-    Console.WriteLine($"The total amount of wrapping paper needed is: {Calculate.WrappingPaper(presents)}");
+// Calculate the total amount of wrapping paper and ribbon needed
+Console.WriteLine($"The total amount of wrapping paper needed is: {Calculate.WrappingPaper(presents)}");
 
-    Console.WriteLine($"The total amount of ribbon needed is: {Calculate.Ribbon(presents)}");
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"An error occurred: {ex.Message}");
-}
+// Calculate the total amount of ribbon needed
+Console.WriteLine($"The total amount of ribbon needed is: {Calculate.Ribbon(presents)}");
+
 
 return;
 
-
+// Read all lines from the file
 string[] GetInput(string s)
 {
     var strings = File.ReadAllLines(s);

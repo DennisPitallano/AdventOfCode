@@ -8,6 +8,7 @@ Console.WriteLine("Hello, World!");
 Console.WriteLine(Calculate.Part1(GetInput()));
 Console.WriteLine(Calculate.Part2(GetInput()));
 
+return;
 
 string[] GetInput()
 {

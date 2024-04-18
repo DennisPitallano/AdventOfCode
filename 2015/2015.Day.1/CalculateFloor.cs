@@ -1,8 +1,6 @@
-﻿using System.Drawing;
-
-namespace _2015.Day._1
+﻿namespace _2015.Day._1
 {
-    public static class CalculateFloor
+    internal static class CalculateFloor
     {
         /// <summary>
         /// Calculates the floor Santa ends up on based on the given instructions.
